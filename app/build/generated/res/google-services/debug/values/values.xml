@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">611080373034-bd4v9lvm94dc840k4vddi91idhthfhsh.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">611080373034</string>
+    <string name="google_api_key" translatable="false">AIzaSyB5u5MeZ2TV8MfjKj1qMaHXoBolz9S7QgA</string>
+    <string name="google_app_id" translatable="false">1:611080373034:android:d93f6456a2940a7d779453</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB5u5MeZ2TV8MfjKj1qMaHXoBolz9S7QgA</string>
+    <string name="google_storage_bucket" translatable="false">facerecognition-95c04.appspot.com</string>
+    <string name="project_id" translatable="false">facerecognition-95c04</string>
+</resources>

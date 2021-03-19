@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "611080373034",
+    "project_id": "facerecognition-95c04",
+    "storage_bucket": "facerecognition-95c04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611080373034:android:d93f6456a2940a7d779453",
+        "android_client_info": {
+          "package_name": "com.google.mlkit.vision.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611080373034-bd4v9lvm94dc840k4vddi91idhthfhsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5u5MeZ2TV8MfjKj1qMaHXoBolz9S7QgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611080373034-bd4v9lvm94dc840k4vddi91idhthfhsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
