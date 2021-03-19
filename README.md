@@ -10,5 +10,9 @@ The face recognition model used in this example is [arcface-tflite](https://gith
 
 This project is trained on MS-Celeb-1M dataset, using MobileNetV2 as backbone, ArcFace for loss function. Then used IJB-C dataset for extracting centroid for every subjects, applied cosine similarity for face matching.
 
+## Tutorials
+
+I'm now working on uploading tutorials on making this project. Already wrote it down in markdown in Korean. But since I'm new with the github.io, it will take some time for this. I'll upload the tutorials on my [github page](https://joonb14.github.io)
+
 
 
