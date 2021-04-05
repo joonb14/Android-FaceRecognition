@@ -2,7 +2,7 @@
 
 This project is based on Firebase ML Kit [Face Detection](https://developers.google.com/ml-kit/vision/face-detection/android).
 
-The face recognition model used in this example is [arcface-tflite](https://github.com/joonb14/arcface-tflite). Which is heavily based on [arcface-tf2](https://github.com/peteryuX/arcface-tf2) implementation.
+The face recognition model used in this example is [JHFace](https://github.com/joonb14/JHFace). Which is heavily based on [arcface-tf2](https://github.com/peteryuX/arcface-tf2) implementation.
 
  ![demo](./demo/demo.gif)
 
