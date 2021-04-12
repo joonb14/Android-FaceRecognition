@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Apps\\Face Recognition\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
+            "outputFile": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Tmax\\.gradle\\caches\\transforms-2\\files-2.1\\4c4f9f0a7a6d5dc80a61c93b23a3084e\\jetified-play-services-basement-17.6.0\\res\\values-tr\\values.xml",

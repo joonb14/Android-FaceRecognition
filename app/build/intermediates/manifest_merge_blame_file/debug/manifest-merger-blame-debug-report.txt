@@ -12,28 +12,28 @@
 12    APIs.
 13    -->
 14    <uses-sdk
-14-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
+14-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
 15        android:minSdkVersion="26"
-15-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
+15-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
 16        android:targetSdkVersion="29" />
-16-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
+16-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
 17
 18    <uses-feature android:name="android.hardware.camera" />
-18-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:18:5-59
-18-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:18:19-57
+18-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:18:5-59
+18-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:18:19-57
 19
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:20:5-66
-20-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:20:22-64
+20-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:20:5-66
+20-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:20:22-64
 21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-21-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:21:5-80
-21-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:21:22-78
+21-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:21:5-80
+21-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:21:22-78
 22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:22:5-79
-22-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:22:22-77
+22-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:22:5-79
+22-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:22:22-77
 23    <uses-permission android:name="android.permission.CAMERA" />
-23-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:23:5-64
-23-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:23:22-62
+23-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:23:5-64
+23-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:23:22-62
 24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 24-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\cd0235b79c3de23f3f1a8335b11ef6f8\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:23:5-79
 24-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\cd0235b79c3de23f3f1a8335b11ef6f8\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:23:22-76
@@ -45,63 +45,63 @@
 26-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\a0460c04400aa42718452ab37f329b55\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
 27
 28    <application
-28-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:25:5-55:19
+28-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:25:5-55:19
 29        android:name="androidx.multidex.MultiDexApplication"
-29-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:26:9-61
+29-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:26:9-61
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.3.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\07db336ae5869dd6a2a2595e5b0db33a\core-1.3.1\AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
 33        android:icon="@drawable/logo_mlkit"
-33-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:27:9-44
+33-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:27:9-44
 34        android:label="@string/app_name"
-34-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:28:9-41
+34-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:28:9-41
 35        android:testOnly="true"
 36        android:theme="@style/Theme.AppCompat" >
-36-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:29:9-47
+36-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:29:9-47
 37        <meta-data
-37-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:31:9-33:68
+37-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:31:9-33:68
 38            android:name="com.google.android.gms.version"
-38-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:32:13-58
+38-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:32:13-58
 39            android:value="@integer/google_play_services_version" />
-39-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:33:13-66
+39-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:33:13-66
 40
 41        <!--
 42          Optional: Add it to automatically download ML model to device after
 43          your app is installed.
 44        -->
 45        <meta-data
-45-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:37:9-39:51
+45-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:37:9-39:51
 46            android:name="com.google.mlkit.vision.DEPENDENCIES"
-46-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:38:13-64
+46-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:38:13-64
 47            android:value="barcode,face,ocr,ica" />
-47-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:39:13-49
+47-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:39:13-49
 48
 49        <activity
-49-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:41:9-49:20
+49-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:41:9-49:20
 50            android:name="com.google.mlkit.vision.demo.java.LivePreviewActivity"
-50-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:42:13-53
+50-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:42:13-53
 51            android:exported="true"
-51-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:43:13-36
+51-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:43:13-36
 52            android:theme="@style/AppTheme" >
-52-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:44:13-44
+52-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:44:13-44
 53            <intent-filter>
-53-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:45:13-48:29
+53-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:45:13-48:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:46:17-68
-54-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:46:25-66
+54-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:46:17-68
+54-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:46:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:47:17-76
-56-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:47:27-74
+56-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:47:17-76
+56-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:47:27-74
 57            </intent-filter>
 58        </activity>
 59        <activity
-59-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:51:9-53:39
+59-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:51:9-53:39
 60            android:name="com.google.mlkit.vision.demo.preference.SettingsActivity"
-60-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:52:13-56
+60-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:52:13-56
 61            android:exported="false" />
-61-->D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:53:13-37
+61-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:53:13-37
 62
 63        <service
 63-->[com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\f708dfd27d2557e668e1bdeaf7964abc\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:9:9-15:19

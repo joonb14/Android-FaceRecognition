@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Apps\\Face Recognition\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
+            "outputFile": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Tmax\\.gradle\\caches\\transforms-2\\files-2.1\\5c283a62a77633edbec8ab93e3d843f6\\appcompat-1.2.0\\res\\values-nl\\values-nl.xml",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:2:1-57:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\0b63f2eeaa44c7a0747256431bae7155\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\f708dfd27d2557e668e1bdeaf7964abc\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-analytics:18.0.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\9b359360c7f197d47ed900eb1ad34e44\jetified-firebase-analytics-18.0.2\AndroidManifest.xml:2:1-9:12
@@ -70,31 +70,31 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Tmax\.gradle\caches\transforms
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\4b8c308cca7a8dcba0db9282b1e95aee\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\ad5f268916fe3ec462a5ad6e61c4247b\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\32e4f9ba94e15b1465652fe9b2199315\jetified-annotation-experimental-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:2:1-57:12
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:5:5-43
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:5:5-43
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:2:1-57:12
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:4:5-51
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:4:5-51
 	android:versionCode
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:2:1-57:12
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:3:5-63
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:3:5-63
 	android:installLocation
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:6:5-35
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:6:5-35
 uses-sdk
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\0b63f2eeaa44c7a0747256431bae7155\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\0b63f2eeaa44c7a0747256431bae7155\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\f708dfd27d2557e668e1bdeaf7964abc\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:6:5-44
@@ -227,25 +227,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tmax\.gradle\cac
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\ad5f268916fe3ec462a5ad6e61c4247b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\32e4f9ba94e15b1465652fe9b2199315\jetified-annotation-experimental-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\32e4f9ba94e15b1465652fe9b2199315\jetified-annotation-experimental-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
-INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
+INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
 	tools:overrideLibrary
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
 	android:targetSdkVersion
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
-		MERGED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:13:5-16:63
-		INJECTED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
+		MERGED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:13:5-16:63
+		INJECTED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml
 uses-feature#android.hardware.camera
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:18:5-59
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:18:5-59
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:18:19-57
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:18:19-57
 uses-permission#android.permission.INTERNET
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:20:5-66
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\cd0235b79c3de23f3f1a8335b11ef6f8\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\cd0235b79c3de23f3f1a8335b11ef6f8\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\a4ba84a2f85992351a681a9cfcace5f1\jetified-firebase-installations-16.3.2\AndroidManifest.xml:11:5-67
@@ -259,21 +259,21 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\ff05ad72089e2f4394c58c2b5f01bb73\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\ff05ad72089e2f4394c58c2b5f01bb73\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:20:22-64
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:20:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:21:5-80
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:21:5-80
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:21:22-78
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:21:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:22:5-79
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:22:22-77
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:22:22-77
 uses-permission#android.permission.CAMERA
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:23:5-64
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:23:5-64
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:23:22-62
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:23:22-62
 application
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:25:5-55:19
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:25:5-55:19
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\f708dfd27d2557e668e1bdeaf7964abc\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\f708dfd27d2557e668e1bdeaf7964abc\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-analytics:18.0.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\9b359360c7f197d47ed900eb1ad34e44\jetified-firebase-analytics-18.0.2\AndroidManifest.xml:7:5-20
@@ -337,51 +337,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Tm
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\07db336ae5869dd6a2a2595e5b0db33a\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:28:9-41
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:28:9-41
 	android:icon
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:27:9-44
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:27:9-44
 	android:theme
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:29:9-47
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:29:9-47
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:26:9-61
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:26:9-61
 meta-data#com.google.android.gms.version
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:31:9-33:68
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:31:9-33:68
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\4c4f9f0a7a6d5dc80a61c93b23a3084e\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\4c4f9f0a7a6d5dc80a61c93b23a3084e\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:33:13-66
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:33:13-66
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:32:13-58
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:32:13-58
 meta-data#com.google.mlkit.vision.DEPENDENCIES
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:37:9-39:51
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:37:9-39:51
 	android:value
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:39:13-49
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:39:13-49
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:38:13-64
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:38:13-64
 activity#com.google.mlkit.vision.demo.java.LivePreviewActivity
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:41:9-49:20
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:41:9-49:20
 	android:exported
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:43:13-36
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:43:13-36
 	android:theme
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:44:13-44
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:44:13-44
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:42:13-53
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:42:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:45:13-48:29
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:45:13-48:29
 action#android.intent.action.MAIN
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:46:17-68
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:46:17-68
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:46:25-66
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:47:17-76
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:47:17-76
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:47:27-74
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:47:27-74
 activity#com.google.mlkit.vision.demo.preference.SettingsActivity
-ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:51:9-53:39
+ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:51:9-53:39
 	android:exported
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:53:13-37
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from D:\Android Apps\Face Recognition\app\src\main\AndroidManifest.xml:52:13-56
+		ADDED from D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:52:13-56
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\f708dfd27d2557e668e1bdeaf7964abc\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-ml-common:22.1.2] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\2814011ece7066cca5c179ab14f3389f\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:8:9-14:19

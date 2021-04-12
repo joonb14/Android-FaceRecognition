@@ -173,7 +173,8 @@ public final class LivePreviewActivity extends AppCompatActivity
                   interpreter = new Interpreter(modelFile);
                 } else {
                   try {
-                    InputStream inputStream = getAssets().open("myFile.tflite");
+//                    InputStream inputStream = getAssets().open("ms1m_mobilenetv2_16.tflite");
+                    InputStream inputStream = getAssets().open("ms1m_mobilenetv2_16_quant.tflite");
 
                     byte[] model = new byte[inputStream.available()];
                     inputStream.read(model);

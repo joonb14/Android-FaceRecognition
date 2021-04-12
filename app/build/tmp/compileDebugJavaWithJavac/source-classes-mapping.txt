@@ -2,10 +2,8 @@ com/google/mlkit/vision/demo/preference/LivePreviewPreferenceFragment.java
  com.google.mlkit.vision.demo.preference.LivePreviewPreferenceFragment
 com/google/mlkit/vision/demo/preference/PreferenceUtils.java
  com.google.mlkit.vision.demo.preference.PreferenceUtils
-com/google/mlkit/vision/demo/CameraSourcePreview.java
- com.google.mlkit.vision.demo.CameraSourcePreview
- com.google.mlkit.vision.demo.CameraSourcePreview$1
- com.google.mlkit.vision.demo.CameraSourcePreview$SurfaceCallback
+com/google/mlkit/vision/demo/java/facedetector/FaceGraphic.java
+ com.google.mlkit.vision.demo.java.facedetector.FaceGraphic
 com/google/mlkit/vision/demo/BitmapUtils.java
  com.google.mlkit.vision.demo.BitmapUtils
 com/google/mlkit/vision/demo/BuildConfig.java
@@ -35,16 +33,18 @@ com/google/mlkit/vision/demo/java/facedetector/ScriptC_singlesource.java
  com.google.mlkit.vision.demo.java.facedetector.ScriptC_singlesource
 com/google/mlkit/vision/demo/java/facedetector/singlesourceBitCode.java
  com.google.mlkit.vision.demo.java.facedetector.singlesourceBitCode
+com/google/mlkit/vision/demo/java/CosineSim.java
+ com.google.mlkit.vision.demo.java.CosineSim
 com/google/mlkit/vision/demo/preference/SettingsActivity.java
  com.google.mlkit.vision.demo.preference.SettingsActivity
  com.google.mlkit.vision.demo.preference.SettingsActivity$LaunchSource
-com/google/mlkit/vision/demo/java/facedetector/FaceGraphic.java
- com.google.mlkit.vision.demo.java.facedetector.FaceGraphic
+com/google/mlkit/vision/demo/CameraSourcePreview.java
+ com.google.mlkit.vision.demo.CameraSourcePreview
+ com.google.mlkit.vision.demo.CameraSourcePreview$1
+ com.google.mlkit.vision.demo.CameraSourcePreview$SurfaceCallback
 com/google/mlkit/vision/demo/java/LivePreviewActivity.java
  com.google.mlkit.vision.demo.java.LivePreviewActivity
  com.google.mlkit.vision.demo.java.LivePreviewActivity$1
-com/google/mlkit/vision/demo/java/CosineSim.java
- com.google.mlkit.vision.demo.java.CosineSim
 com/google/mlkit/vision/demo/java/facedetector/FaceDetectorProcessor.java
  com.google.mlkit.vision.demo.java.facedetector.FaceDetectorProcessor
 com/google/mlkit/vision/demo/java/VisionProcessorBase.java
