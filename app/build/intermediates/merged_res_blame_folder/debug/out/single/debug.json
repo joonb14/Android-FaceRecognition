@@ -8,6 +8,10 @@
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_switch_camera_white_48dp.xml"
     },
     {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_switch_camera_white_48dp.xml.flat",
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\drawable-hdpi\\ic_switch_camera_white_48dp.xml"
+    },
+    {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_toggle_style.xml.flat",
@@ -60,6 +68,10 @@
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\drawable-mdpi\\ic_switch_camera_white_48dp_inset.png"
     },
     {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_switch_camera_white_48dp.xml.flat",
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\drawable-mdpi\\ic_switch_camera_white_48dp.xml"
     },
@@ -70,6 +82,10 @@
     {
         "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\xml_preference_live_preview_quickstart.xml.flat",
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\xml\\preference_live_preview_quickstart.xml"
+    },
+    {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_settings_white_24dp.png.flat",
@@ -92,6 +108,26 @@
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_switch_camera_white_48dp_inset.png"
     },
     {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -100,8 +136,24 @@
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\drawable-mdpi\\ic_settings_white_24dp.png"
     },
     {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vision_live_preview.xml.flat",
         "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\layout\\activity_vision_live_preview.xml"
+    },
+    {
+        "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android Apps\\Android-FaceRecognition\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Android Apps\\Android-FaceRecognition\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_settings_white_24dp.png.flat",

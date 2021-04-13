@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.google.mlkit.vision.demo",
+  "applicationId": "com.google.mlkit.vision.joonb14",
   "variantName": "debug",
   "elements": []
 }

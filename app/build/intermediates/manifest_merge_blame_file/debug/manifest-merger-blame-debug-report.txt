@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.google.mlkit.vision.demo"
+3    package="com.google.mlkit.vision.joonb14"
 4    android:installLocation="auto"
 5    android:versionCode="11"
 6    android:versionName="1.11" >
@@ -52,8 +52,8 @@
 30-->[androidx.core:core:1.3.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\07db336ae5869dd6a2a2595e5b0db33a\core-1.3.1\AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
-33        android:icon="@drawable/logo_mlkit"
-33-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:27:9-44
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:27:9-43
 34        android:label="@string/app_name"
 34-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:28:9-41
 35        android:testOnly="true"
@@ -79,8 +79,8 @@
 48
 49        <activity
 49-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:41:9-49:20
-50            android:name="com.google.mlkit.vision.demo.java.LivePreviewActivity"
-50-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:42:13-53
+50            android:name="com.google.mlkit.vision.joonb14.java.LivePreviewActivity"
+50-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:42:13-84
 51            android:exported="true"
 51-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:43:13-36
 52            android:theme="@style/AppTheme" >
@@ -98,8 +98,8 @@
 58        </activity>
 59        <activity
 59-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:51:9-53:39
-60            android:name="com.google.mlkit.vision.demo.preference.SettingsActivity"
-60-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:52:13-56
+60            android:name="com.google.mlkit.vision.joonb14.preference.SettingsActivity"
+60-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:52:13-87
 61            android:exported="false" />
 61-->D:\Android Apps\Android-FaceRecognition\app\src\main\AndroidManifest.xml:53:13-37
 62
@@ -141,7 +141,7 @@
 81-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\298919e51e45d2695d3e607fba3e74fe\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
 82            android:name="com.google.firebase.provider.FirebaseInitProvider"
 82-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\298919e51e45d2695d3e607fba3e74fe\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-83            android:authorities="com.google.mlkit.vision.demo.firebaseinitprovider"
+83            android:authorities="com.google.mlkit.vision.joonb14.firebaseinitprovider"
 83-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\298919e51e45d2695d3e607fba3e74fe\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
 84            android:exported="false"
 84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\298919e51e45d2695d3e607fba3e74fe\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
@@ -208,7 +208,7 @@
 117-->[com.google.mlkit:common:17.1.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\07a00f7b2ef4f3f705933d31efee6d4a\jetified-common-17.1.1\AndroidManifest.xml:9:9-13:38
 118            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
 118-->[com.google.mlkit:common:17.1.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\07a00f7b2ef4f3f705933d31efee6d4a\jetified-common-17.1.1\AndroidManifest.xml:10:13-78
-119            android:authorities="com.google.mlkit.vision.demo.mlkitinitprovider"
+119            android:authorities="com.google.mlkit.vision.joonb14.mlkitinitprovider"
 119-->[com.google.mlkit:common:17.1.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\07a00f7b2ef4f3f705933d31efee6d4a\jetified-common-17.1.1\AndroidManifest.xml:11:13-69
 120            android:exported="false"
 120-->[com.google.mlkit:common:17.1.1] C:\Users\Tmax\.gradle\caches\transforms-2\files-2.1\07a00f7b2ef4f3f705933d31efee6d4a\jetified-common-17.1.1\AndroidManifest.xml:12:13-37

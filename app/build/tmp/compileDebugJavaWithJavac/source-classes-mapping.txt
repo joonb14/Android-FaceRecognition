@@ -1,52 +1,52 @@
-com/google/mlkit/vision/demo/preference/LivePreviewPreferenceFragment.java
- com.google.mlkit.vision.demo.preference.LivePreviewPreferenceFragment
-com/google/mlkit/vision/demo/preference/PreferenceUtils.java
- com.google.mlkit.vision.demo.preference.PreferenceUtils
-com/google/mlkit/vision/demo/java/facedetector/FaceGraphic.java
- com.google.mlkit.vision.demo.java.facedetector.FaceGraphic
-com/google/mlkit/vision/demo/BitmapUtils.java
- com.google.mlkit.vision.demo.BitmapUtils
-com/google/mlkit/vision/demo/BuildConfig.java
- com.google.mlkit.vision.demo.BuildConfig
-com/google/mlkit/vision/demo/VisionImageProcessor.java
- com.google.mlkit.vision.demo.VisionImageProcessor
-com/google/mlkit/vision/demo/FrameMetadata.java
- com.google.mlkit.vision.demo.FrameMetadata
- com.google.mlkit.vision.demo.FrameMetadata$1
- com.google.mlkit.vision.demo.FrameMetadata$Builder
-com/google/mlkit/vision/demo/ScopedExecutor.java
- com.google.mlkit.vision.demo.ScopedExecutor
-com/google/mlkit/vision/demo/CameraImageGraphic.java
- com.google.mlkit.vision.demo.CameraImageGraphic
-com/google/mlkit/vision/demo/InferenceInfoGraphic.java
- com.google.mlkit.vision.demo.InferenceInfoGraphic
-com/google/mlkit/vision/demo/GraphicOverlay.java
- com.google.mlkit.vision.demo.GraphicOverlay
- com.google.mlkit.vision.demo.GraphicOverlay$Graphic
-com/google/mlkit/vision/demo/CameraSource.java
- com.google.mlkit.vision.demo.CameraSource
- com.google.mlkit.vision.demo.CameraSource$1
- com.google.mlkit.vision.demo.CameraSource$CameraPreviewCallback
- com.google.mlkit.vision.demo.CameraSource$FrameProcessingRunnable
- com.google.mlkit.vision.demo.CameraSource$SizePair
+com/google/mlkit/vision/joonb14/preference/LivePreviewPreferenceFragment.java
+ com.google.mlkit.vision.joonb14.preference.LivePreviewPreferenceFragment
+com/google/mlkit/vision/joonb14/java/facedetector/FaceDetectorProcessor.java
+ com.google.mlkit.vision.joonb14.java.facedetector.FaceDetectorProcessor
+com/google/mlkit/vision/joonb14/CameraSourcePreview.java
+ com.google.mlkit.vision.joonb14.CameraSourcePreview
+ com.google.mlkit.vision.joonb14.CameraSourcePreview$1
+ com.google.mlkit.vision.joonb14.CameraSourcePreview$SurfaceCallback
+com/google/mlkit/vision/joonb14/preference/SettingsActivity.java
+ com.google.mlkit.vision.joonb14.preference.SettingsActivity
+ com.google.mlkit.vision.joonb14.preference.SettingsActivity$LaunchSource
+com/google/mlkit/vision/joonb14/CameraSource.java
+ com.google.mlkit.vision.joonb14.CameraSource
+ com.google.mlkit.vision.joonb14.CameraSource$1
+ com.google.mlkit.vision.joonb14.CameraSource$CameraPreviewCallback
+ com.google.mlkit.vision.joonb14.CameraSource$FrameProcessingRunnable
+ com.google.mlkit.vision.joonb14.CameraSource$SizePair
+com/google/mlkit/vision/joonb14/InferenceInfoGraphic.java
+ com.google.mlkit.vision.joonb14.InferenceInfoGraphic
+com/google/mlkit/vision/joonb14/CameraImageGraphic.java
+ com.google.mlkit.vision.joonb14.CameraImageGraphic
+com/google/mlkit/vision/joonb14/java/LivePreviewActivity.java
+ com.google.mlkit.vision.joonb14.java.LivePreviewActivity
+ com.google.mlkit.vision.joonb14.java.LivePreviewActivity$1
+com/google/mlkit/vision/joonb14/preference/PreferenceUtils.java
+ com.google.mlkit.vision.joonb14.preference.PreferenceUtils
 com/google/mlkit/vision/demo/java/facedetector/ScriptC_singlesource.java
  com.google.mlkit.vision.demo.java.facedetector.ScriptC_singlesource
+com/google/mlkit/vision/joonb14/ScopedExecutor.java
+ com.google.mlkit.vision.joonb14.ScopedExecutor
+com/google/mlkit/vision/joonb14/BitmapUtils.java
+ com.google.mlkit.vision.joonb14.BitmapUtils
+com/google/mlkit/vision/joonb14/GraphicOverlay.java
+ com.google.mlkit.vision.joonb14.GraphicOverlay
+ com.google.mlkit.vision.joonb14.GraphicOverlay$Graphic
+com/google/mlkit/vision/joonb14/BuildConfig.java
+ com.google.mlkit.vision.joonb14.BuildConfig
+com/google/mlkit/vision/joonb14/VisionImageProcessor.java
+ com.google.mlkit.vision.joonb14.VisionImageProcessor
+com/google/mlkit/vision/joonb14/FrameMetadata.java
+ com.google.mlkit.vision.joonb14.FrameMetadata
+ com.google.mlkit.vision.joonb14.FrameMetadata$1
+ com.google.mlkit.vision.joonb14.FrameMetadata$Builder
+com/google/mlkit/vision/joonb14/java/VisionProcessorBase.java
+ com.google.mlkit.vision.joonb14.java.VisionProcessorBase
+ com.google.mlkit.vision.joonb14.java.VisionProcessorBase$1
+com/google/mlkit/vision/joonb14/java/CosineSim.java
+ com.google.mlkit.vision.joonb14.java.CosineSim
+com/google/mlkit/vision/joonb14/java/facedetector/FaceGraphic.java
+ com.google.mlkit.vision.joonb14.java.facedetector.FaceGraphic
 com/google/mlkit/vision/demo/java/facedetector/singlesourceBitCode.java
  com.google.mlkit.vision.demo.java.facedetector.singlesourceBitCode
-com/google/mlkit/vision/demo/java/CosineSim.java
- com.google.mlkit.vision.demo.java.CosineSim
-com/google/mlkit/vision/demo/preference/SettingsActivity.java
- com.google.mlkit.vision.demo.preference.SettingsActivity
- com.google.mlkit.vision.demo.preference.SettingsActivity$LaunchSource
-com/google/mlkit/vision/demo/CameraSourcePreview.java
- com.google.mlkit.vision.demo.CameraSourcePreview
- com.google.mlkit.vision.demo.CameraSourcePreview$1
- com.google.mlkit.vision.demo.CameraSourcePreview$SurfaceCallback
-com/google/mlkit/vision/demo/java/LivePreviewActivity.java
- com.google.mlkit.vision.demo.java.LivePreviewActivity
- com.google.mlkit.vision.demo.java.LivePreviewActivity$1
-com/google/mlkit/vision/demo/java/facedetector/FaceDetectorProcessor.java
- com.google.mlkit.vision.demo.java.facedetector.FaceDetectorProcessor
-com/google/mlkit/vision/demo/java/VisionProcessorBase.java
- com.google.mlkit.vision.demo.java.VisionProcessorBase
- com.google.mlkit.vision.demo.java.VisionProcessorBase$1

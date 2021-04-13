@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:keepScreenOn="true">
 
-  <com.google.mlkit.vision.demo.CameraSourcePreview
+  <com.google.mlkit.vision.joonb14.CameraSourcePreview
       android:id="@+id/preview_view"
       android:layout_width="0dp"
       android:layout_height="match_parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintEnd_toStartOf="@+id/control"/>
 
-  <com.google.mlkit.vision.demo.GraphicOverlay
+  <com.google.mlkit.vision.joonb14.GraphicOverlay
       android:id="@+id/graphic_overlay"
       android:layout_width="0dp"
       android:layout_height="match_parent"

@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.google.mlkit.vision.demo",
+  "applicationId": "com.google.mlkit.vision.joonb14",
   "variantName": "processDebugResources",
   "elements": [
     {

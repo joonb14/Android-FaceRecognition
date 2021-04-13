@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.google.mlkit.vision.demo"
+        applicationId "com.google.mlkit.vision.joonb14"
         minSdkVersion 26
         multiDexEnabled true
         targetSdkVersion 29

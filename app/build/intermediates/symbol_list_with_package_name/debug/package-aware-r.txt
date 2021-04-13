@@ -1,4 +1,4 @@
-com.google.mlkit.vision.demo
+com.google.mlkit.vision.joonb14
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -577,6 +577,7 @@ color foreground_material_light
 color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color light_green_700
 color light_grey_400
 color material_blue_grey_800
@@ -1205,6 +1206,8 @@ layout support_simple_spinner_dropdown_item
 layout toggle_style
 menu camera_button_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
