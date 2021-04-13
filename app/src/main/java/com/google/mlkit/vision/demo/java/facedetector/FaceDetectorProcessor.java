@@ -60,8 +60,6 @@ public class FaceDetectorProcessor extends VisionProcessorBase<List<Face>> {
 
   /** member variables **/
   public static Bitmap image;
-  private float[][][][] face_input;
-  private int[][][][] face_input_int;
   private RenderScript RS;
   private ScriptC_singlesource script;
   public static Interpreter tflite;
@@ -77,6 +75,7 @@ public class FaceDetectorProcessor extends VisionProcessorBase<List<Face>> {
   private static final float IMAGE_STD = 127.5f;
   private static final int inputSize = 112;
   private static final boolean isDebug = true;
+  private static final boolean isRankN = true;
 
   private final FaceDetector detector;
 
@@ -202,8 +201,6 @@ public class FaceDetectorProcessor extends VisionProcessorBase<List<Face>> {
         imgData.rewind();
         int[] face_pix = new int[resolution * resolution];
         faceBitmap.getPixels(face_pix, 0, resolution, 0, 0, resolution, resolution);
-        face_input_int = new int[1][resolution][resolution][3]; // for Quant model
-        face_input = new float[1][resolution][resolution][3]; // for non-Quant model
         for (int y = 0; y < resolution; y++) {
           for (int x = 0; x < resolution; x++) {
             int index = y * resolution + x;
@@ -247,22 +244,38 @@ public class FaceDetectorProcessor extends VisionProcessorBase<List<Face>> {
             norm_out[i] = (float)(output[0][i]/norm);
           }
         }
-        // Compute Cosine Similarity
-        if(isDebug) Log.d("LATENCY CHECK","Compute Cosine Similarity");
-        PriorityQueue<CosineSim> cosine_sim = new PriorityQueue<>();
-        for (int i=0;i< centroid.length; i++) {
-          float cosine = cosineSimilarity(centroid[i], norm_out);
-          cosine_sim.offer(new CosineSim(labels[i],cosine));
+        CosineSim[] top5_list;
+        if(isRankN) {
+          // Compute Cosine Similarity
+          if(isDebug) Log.d("LATENCY CHECK","Compute Cosine Similarity");
+          PriorityQueue<CosineSim> cosine_sim = new PriorityQueue<>();
+          for (int i=0;i< centroid.length; i++) {
+            float cosine = cosineSimilarity(centroid[i], norm_out);
+            cosine_sim.offer(new CosineSim(labels[i],cosine));
+          }
+          top5_list = new CosineSim[5];
+          if (isDebug) Log.d("LATENCY CHECK", "Result");
+          Log.d(TAG, "--------------------------------Result--------------------------------");
+          for (int i = 0; i < 5; i++) {
+            top5_list[i] = cosine_sim.poll();
+            Log.d(TAG, "Top" + i + " Cosine similarity: " + top5_list[i].toString());
+          }
         }
-
-        CosineSim [] top5_list = new CosineSim[5];
-        if(isDebug) Log.d("LATENCY CHECK","Result");
-        Log.d(TAG, "--------------------------------Result--------------------------------");
-        for (int i=0;i<5;i++) {
-          top5_list[i] = cosine_sim.poll();
-          Log.d(TAG, "Top"+i+" Cosine similarity: " + top5_list[i].toString());
+        else{
+          // Compute Cosine Similarity
+          if(isDebug) Log.d("LATENCY CHECK","Compute Cosine Similarity");
+          float max = 0;
+          String label = "";
+          for (int i=0;i< centroid.length; i++) {
+            float cosine = cosineSimilarity(centroid[i], norm_out);
+            if (cosine > max) {
+              label = labels[i];
+              max = cosine;
+            }
+          }
+          top5_list = new CosineSim[1];
+          top5_list[0] = new CosineSim(label,max);
         }
-
         if(isDebug) Log.d("LATENCY CHECK","graphicOverlay");
         graphicOverlay.add(new FaceGraphic(graphicOverlay, face, top5_list));
         logExtrasForTesting(face);

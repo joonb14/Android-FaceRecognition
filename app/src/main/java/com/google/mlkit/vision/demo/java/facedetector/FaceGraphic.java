@@ -145,32 +145,14 @@ public class FaceGraphic extends Graphic {
                       Locale.US, "Right eye open: %.2f", face.getRightEyeOpenProbability())));
     }
 
-    yLabelOffset = yLabelOffset - 5 * lineHeight;
-    textWidth =
-        Math.max(
-            textWidth,
-            idPaints[colorID].measureText(
-                String.format(Locale.US, top5_list[0].toString())));
-    textWidth =
-        Math.max(
-            textWidth,
-            idPaints[colorID].measureText(
-                String.format(Locale.US, top5_list[1].toString())));
-    textWidth =
-        Math.max(
-            textWidth,
-            idPaints[colorID].measureText(
-                String.format(Locale.US, top5_list[2].toString())));
-    textWidth =
-        Math.max(
-            textWidth,
-            idPaints[colorID].measureText(
-                String.format(Locale.US, top5_list[3].toString())));
-    textWidth =
-        Math.max(
-            textWidth,
-            idPaints[colorID].measureText(
-                String.format(Locale.US, top5_list[4].toString())));
+    yLabelOffset = yLabelOffset - top5_list.length * lineHeight;
+    for (CosineSim cosineSim : top5_list) {
+      textWidth =
+              Math.max(
+                      textWidth,
+                      idPaints[colorID].measureText(
+                              String.format(Locale.US, cosineSim.toString())));
+    }
     // Draw labels
     canvas.drawRect(
         left - BOX_STROKE_WIDTH,
@@ -253,20 +235,12 @@ public class FaceGraphic extends Graphic {
       yLabelOffset += lineHeight;
     }
 
-    canvas.drawText(
-        top5_list[0].toString(), left, top + yLabelOffset, idPaints[colorID]);
-    yLabelOffset += lineHeight;
-    canvas.drawText(
-        top5_list[1].toString(), left, top + yLabelOffset, idPaints[colorID]);
-    yLabelOffset += lineHeight;
-    canvas.drawText(
-        top5_list[2].toString(), left, top + yLabelOffset, idPaints[colorID]);
-    yLabelOffset += lineHeight;
-    canvas.drawText(
-        top5_list[3].toString(), left, top + yLabelOffset, idPaints[colorID]);
-    yLabelOffset += lineHeight;
-    canvas.drawText(
-        top5_list[4].toString(), left, top + yLabelOffset, idPaints[colorID]);
+
+    for (CosineSim cosineSim : top5_list) {
+      canvas.drawText(
+              cosineSim.toString(), left, top + yLabelOffset, idPaints[colorID]);
+      yLabelOffset += lineHeight;
+    }
 
     // Draw facial landmarks
     drawFaceLandmark(canvas, FaceLandmark.LEFT_EYE);
